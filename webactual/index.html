@@ -15,7 +15,11 @@
   <link href="css/animate.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" />
 </head>
-
+<script type="text/javascript">
+  function mostrar(){
+    document.getElementById("more").style.display="block"
+  }
+</script>
 <body>
   <header id="header">
     <nav class="navbar navbar-default navbar-static-top" role="banner">
@@ -153,12 +157,19 @@
       <div class="text-center">
         <h2> TRIBOQUIMIA </h2>
         <div class="col-md-10 col-md-offset-1"> <!-- comit de mia  -->
-          <p >Es una empresa 100% mexicana que desarrolla  tecnología, fabrica lubricantes sintéticos, grasas y aceites en adición elabora especialidades para la industria todo esto  bajo la marca de <strong>&quot;OLLIN&quot; (Movimiento)</strong></p>
-
-        </div>
+          <p >Es una empresa 100% mexicana que desarrolla  tecnología, fabrica lubricantes sintéticos, grasas y aceites en adición elabora especialidades para la industria todo esto  bajo la marca de <strong>&quot;OLLIN&quot; (Movimiento)</strong>
+         align="justify" class="texto"> Desde hace mas de 20   años relativamente joven, nuestra empresa esta formada por personal tecnico   capacitado en el extranjero, que suma muchos años de experiencia.
+         <h2 id="m1">TRIBOQUIMIA</h2>
+         <p id="more">Dedica la   mayor parte de su tiempo a la fabricaci�n de lubricantes y grasas a partir de   cualquier base sint�tica en el mercado. Un 90% de la producci�n ha sido   desarrollado como substituto de lubricantes de importaci�n.</p>
+         </span></p>
+         </p>
+          </div>
 
         <div class="col-md-6 col-sm-6 col-xs-6" id="btncenter"><!-- comit de mia checar porfavor si se  quita el boton  y se remprlasa con  la informacion o si tendra una tilidad el button   -->
-          <div class="btn-gamp"style="position:abstolute;"><a href="#">leer mas </a></div>
+          <div>
+          <button id="o" type="button" class="btn btn-secondary btn-lg"onclick="mostrar();">Leer mas</button>
+
+          </div>
         </div>
 
         </div>
