@@ -1134,9 +1134,13 @@ ul.social-network li a {
 }
 #top{
 	position: absolute;
-    bottom: 12%;
+    bottom: 1%;
 }
 #top2{
 	position:relative;
 	bottom: 1%;
+}
+#png{
+	position:relative;
+	bottom: 5%;
 }
