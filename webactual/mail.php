@@ -1,6 +1,6 @@
 <?php
 
-$destino= "saulperez.sistemas@gmail.com";
+$destino= "triboquimia@gmail.com";
 $nombre=$_Post["nombre"];
 $email=$_Post["correro"];
 $subject=$_Post["subject"];
