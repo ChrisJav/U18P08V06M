@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 $destino= "saulperez.sistemas@gmail.com";
 $name="$_REQUEST[name]";
 $email="$_REQUEST[email]";
@@ -10,4 +11,14 @@ mail($destino,"contanto",$contenido);
 header("Location:gracias.html");
 
 
+=======
+$destino= "triboquimia@gmail.com";
+$nombre=$_Post["nombre"];
+$email=$_Post["correro"];
+$subject=$_Post["subject"];
+$mensage=$_Post["mensaje"];
+$contenido="Embre: ". $nombre ."\nEmail: ".$email."n\Subject:".$subject."\nMensaje".$mensage;
+mail($destino,"contanto",$contenido);
+header("Location:gracias.html");
+>>>>>>> 181b0e50000116f124a317759b7008e82edbeb3e
  ?>
