@@ -38,7 +38,8 @@
 <li role="presentation"><a href="index.html" class="active">HOME</a></li>
 <li role="presentation"><a href="servicios y beneficios.html">SERVICIOS Y BENEFICIOS</a></li>
 <li role="presentation"><a href="productos.html">PRODUCTOS</a></li>
-<li role="presentation"><a href="contacto y ubicacion.html">CONTACTO Y UBICACION</a></li>
+<li role="presentation"><a href="contacto.html">CONTACTO</a></li>
+<li role="presentation"><a href="ubicacion.html">UBICACION</a></li>
             </ul>
           </div>
         </div>
@@ -49,21 +50,22 @@
   </header>
   <!--/header-->
 
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.6125038550495!2d-99.16315418545045!3d19.60109504035103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f66e7ee34c09%3A0x9e75ffde48c5b5e7!2sTriboquimia!5e0!3m2!1ses-419!2smx!4v1530249846738" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <div class="map">
+    <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
+  </div>
 
   <section class="contact-page">
     <div class="container">
       <div class="text-center">
-        <h2>QUEREMOS SERVIRLE CADA VEZ MEJOR</h2>
+        <h2>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</h2>
 
-        <h3>Haganos llegar sus sugerencias, comentarios, dudas o quejas<br>
-        Los datos que se solicitan son para brindarle un mejor servicio.</h3>
+        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <div class="row contact-wrap">
         <div class="col-md-6 col-md-offset-3">
           <div id="sendmessage">Your message has been sent. Thank you!</div>
           <div id="errormessage"></div>
-          <form action="mail.php" >
+          <form action="" method="post" role="form" class="contactForm">
             <div class="form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
               <div class="validation"></div>
@@ -80,8 +82,7 @@
               <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
               <div class="validation"></div>
             </div>
-            <div class="text-center">
-              <input type="submit"  class="btn btn-primary btn-lg" >Submit Message</div>
+            <div class="text-center"><button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Submit Message</button></div>
           </form>
         </div>
       </div>

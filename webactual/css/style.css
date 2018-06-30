@@ -5,7 +5,14 @@
 /* ==== overwrite bootstrap standard ==== */
 @import url('animate.css');
 
-
+.container{
+max-width: 6000px;
+min-width: 600px
+	width: 85%;
+	margin: 0 auto;
+	overflow: 20px 0;
+	box-sizing: border-box;
+}
 
 body {
 	font-family:'Open Sans', Arial, sans-serif;
@@ -25,6 +32,10 @@ hi,h2,h3,h4,h5,h6 {
 p {
 	color:#aaa;
 	font-size:13px;
+	max-width: 2000px;
+	min-width: 60%;
+	width: 100%;
+	box-sizing: border-box;
 }
 a {
     text-decoration:none;
@@ -1143,4 +1154,9 @@ ul.social-network li a {
 #png{
 	position:relative;
 	bottom: 5%;
+}
+
+.img{
+
+min-width: 50%;
 }
