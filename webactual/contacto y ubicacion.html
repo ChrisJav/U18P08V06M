@@ -67,23 +67,23 @@
           <div id="errormessage"></div>
           <form action="mail.php" >
             <div class="form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <input type="text" name="name" class="form-control" id="name" required="required" placeholder="Nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+              <input type="email" class="form-control" name="email" id="email" required="required" placeholder="Email" data-rule="email" data-msg="Por favor introduzca una dirección de correo electrónico válida" />
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <input type="text" class="form-control" name="subject" id="subject" required="required" placeholder="Asunto" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres de la asignatura" />
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribe algo para nosotros" required="required" placeholder="Mensaje"></textarea>
               <div class="validation"></div>
             </div>
             <div class="text-center">
-              <input type="submit"  class="btn btn-primary btn-lg" >Submit Message</div>
+              <input type="submit"  class="btn btn-primary btn-lg" >Enviar Mensaje</div>
           </form>
         </div>
       </div>
@@ -113,7 +113,7 @@
           <ul class="sidebar-gallery">
         <li><button  id="imgb""button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"><img id="imgm"src="./img/imgmedia/imagen11.png" alt=""></button> </li>
 
-                <li><button  id="imgb""button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal11"><img id="imgm"src="./img/imgmedia/imagen12.png" alt=""></button> </li>
+              <li><button  id="imgb""button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal11"><img id="imgm"src="./img/imgmedia/imagen12.png" alt=""></button> </li>
                 <li><button  id="imgb""button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2"><img id="imgm"src="./img/imgmedia/imagen13.png" alt=""></button> </li>
                 <li><button  id="imgb""button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3"><img id="imgm"src="./img/imgmedia/imagen14.png" alt=""></button> </li>
                 <li><button  id="imgb""button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal14"><img id="imgm"src="./img/imgmedia/imagen15.png" alt=""></button> </li>
