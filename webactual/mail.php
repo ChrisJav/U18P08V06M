@@ -9,5 +9,4 @@ $contenido="name :  ".$name ." \nEmail : ". $email ." \nSubject : ". $subject ."
 mail($destino,"contanto",$contenido);
 header("Location:gracias.html");
 
-
 ?>

@@ -12,6 +12,7 @@ min-width: 600px
 	margin: 0 auto;
 	overflow: 20px 0;
 	box-sizing: border-box;
+
 }
 
 body {
@@ -1160,3 +1161,139 @@ ul.social-network li a {
 
 min-width: 50%;
 }
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-md-1 {width: 8.33%;}
+.col-md-2 {width: 16.66%;}
+.col-md-3 {width: 25%;}
+.col-md-4 {width: 33.33%;}
+.colm-d-5 {width: 41.66%;}
+.col-md-6 {width: 50%;}
+.col-md-7 {width: 58.33%;}
+.col-md-8 {width: 66.66%;}
+.col-md-9 {width: 75%;}
+.col-md-10 {width: 83.33%;}
+.col-md-11 {width: 91.66%;}
+.col-md-12 {width: 100%;}
+
+.col-xm-1 {width: 8.33%;}
+.col-xm-2 {width: 16.66%;}
+.col-xm-3 {width: 25%;}
+.col-xm-4 {width: 33.33%;}
+.col-xm-5 {width: 41.66%;}
+.col-xm-6 {width: 50%;}
+.col-xm-7 {width: 58.33%;}
+.col-xm-8 {width: 66.66%;}
+.col-xm-9 {width: 75%;}
+.col-xm-10 {width: 83.33%;}
+.col-xm-11 {width: 91.66%;}
+.col-xm-12 {width: 100%;}
+#mia{width: 8.33%;}
+#mia{width: 16.66%;}
+#mia{width: 25%;}
+#mia{width: 33.33%;}
+#mia{width: 41.66%;}
+#mia{width: 50%;}
+#mia{width: 58.33%;}
+#mia{width: 66.66%;}
+#mia{width: 75%;}
+#mia{width: 83.33%;}
+
+#mia{width: 91.66%;}
+#mia{width: 100%;}
+
+
+#mia1{width: 50%;}
+#mia1{width: 58.33%;}
+#mia1{width: 66.66%;}
+#mia1{width: 75%;}
+#mia1{width: 83.33%;}
+
+#mia1{width: 91.66%;}
+#mia1{width: 100%;}
+
+
+.lsr{width: 8.33%;}
+.lsr{width: 16.66%;}
+.lsr{width: 25%;}
+.lsr{width: 33.33%;}
+.lsr{width: 41.66%;}
+.lsr{width: 50%;}
+.lsr{width: 58.33%;}
+.lsr{width: 66.66%;}
+.lsr{width: 75%;}
+.lsr{width: 83.33%;}
+
+.lsr{width: 91.66%;}
+.lsr{width: 100%;}
+#mia55{width: 66%;}
+
+#gg{width: 8.33%;}
+#gg{width: 16.66%;}
+#gg{width: 25%;}
+#gg{width: 33.33%;}
+#gg{width: 41.66%;}
+#gg{width: 50%;}
+#gg{width: 58.33%;}
+#gg{width: 66.66%;}
+#gg{width: 75%;}
+#gg{width: 83.33%;}
+
+#gg{width: 91.66%;}
+#gg{width: 100%;}
+
+
+#mia11{width: 8.33%;}
+#mia11{width: 16.66%;}
+#mia11{width: 25%;}
+#mia11{width: 33.33%;}
+#mia11{width: 41.66%;}
+#mia11{width: 50%;}
+#mia11{width: 58.33%;}
+#mia11{width: 66.66%;}
+#mia11{width: 75%;}
+#mia11{width: 83.33%;}
+#mia11{width: 91.66%;}
+#mia11{width: 100%;}
+
+#mia22{width: 8.33%;}
+#mia22{width: 16.66%;}
+#mia22{width: 25%;}
+#mia22{width: 33.33%;}
+#mia22{width: 41.66%;}
+#mia22{width: 50%;}
+#mia22{width: 66.66%;}
+#mia22{width: 75%;}
+
+#mia22{
+	position: relative;
+
+}
+#mia11{
+position: relative;}
+
+
+#mia33{width: 8.33%;}
+#mia33{width: 16.66%;}
+#mia33{width: 25%;}
+#mia33{width: 33.33%;}
+#mia33{width: 100%;}
+
+
+#mia44{width: 33.33%;}
+#mia44{width: 100%;}
